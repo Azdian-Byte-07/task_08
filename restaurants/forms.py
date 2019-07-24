@@ -10,3 +10,5 @@ class RestaurantForm(forms.ModelForm):
         	'opening_time': forms.TimeInput(attrs={'type':'time'}),
         	'closing_time': forms.TimeInput(attrs={'type':'time'}),
         }
+
+
